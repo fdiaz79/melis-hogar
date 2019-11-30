@@ -1,14 +1,21 @@
 <template>
-    <div id="app-header">
-        <p class="text-center" id="header-text">
-            Hogar Geriatrico Melis y Mao: Cra 38A #61-09 - Tel. 57-1-2213950
-        </p>
+    <div>
+        <div id="app-header">
+            <p class="text-center" id="header-text">
+                Hogar Geriatrico Melis y Mao: Cra 38A #61-09 - Tel. 57-1-2213950
+            </p>
+        </div>
+        <app-navbar></app-navbar>
     </div>
     
 </template>
 
 <script>
+    import navbar from './navbar.vue'
     export default {
+        components: {
+            'app-navbar': navbar
+        }
         
     }
 </script>
