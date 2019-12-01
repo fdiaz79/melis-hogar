@@ -15,18 +15,6 @@
         <hr>
     </div>
     
-
-
-
-
-    <!-- <div id="nav" class="text-center" >
-        <hr>
-        <router-link to="/">INICIO</router-link> |
-        <router-link to="/aboutUs">NOSOTROS</router-link> |
-        <router-link to="/gallery">GALERIA</router-link> |
-        <router-link to="/contactUs">CONTACTENOS</router-link>
-        <hr>
-    </div> -->
 </template>
 
 <script>
