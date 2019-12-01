@@ -6,6 +6,7 @@
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="center">                    
                     <router-link to="/">| INICIO |</router-link> 
+                    <router-link to="/services">| SERVICIOS |</router-link>
                     <router-link to="/aboutUs">| NOSOTROS |</router-link> 
                     <router-link to="/gallery">| GALERIA |</router-link> 
                     <router-link to="/contactUs">| CONTACTENOS |</router-link>                    
